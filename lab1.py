@@ -104,12 +104,11 @@ def calculate_vertices(a: float, b: float, c: float, width: int = 100, height: i
 
 def main():
     logging.info("Начало обработки запроса")
-
     # Чтение трёх строк
     try:
-        line1 = input("Введите длину стороны A: ").strip()
-        line2 = input("Введите длину стороны B: ").strip()
-        line3 = input("Введите длину стороны C: ").strip()
+        line1 = input("Введите длину стороны A: ")
+        line2 = input("Введите длину стороны B: ")
+        line3 = input("Введите длину стороны C: ")
     except Exception as ex:
         logging.error("Ошибка при чтении входных данных")
         logging.exception("Трассировка стека:")
@@ -133,7 +132,6 @@ def main():
 
     # Определение вида треугольника
     triangle_type = determine_triangle_type(a, b, c)
-    logging.info(f"Вид треугольника: {triangle_type}")
 
     # Вычисление координат
     vertices = calculate_vertices(a, b, c)
