@@ -26,7 +26,7 @@ logging.info("Приложение запущено")
 
 def parse_side(value: str, side_name: str) -> float:
     """
-    Преобразует строку fdgв положительное вещественное число.
+    Преобразует строку в положительное вещественное число.
     При ошибке логирует исключение и возвращает None.
     """
     try:
@@ -106,48 +106,58 @@ def calculate_vertices(a: float, b: float, c: float, width: int = 100, height: i
         return [(-1, -1)] * 3
 
 def main():
-    logging.info("Начало обработки запроса")
+    while True:
+        logging.info("Начало обработки запроса")
 
-    # Чтение трёх строк
-    try:
-        line1 = input("Введите длину стороны A: ").strip()
-        line2 = input("Введите длину стороны B: ").strip()
-        line3 = input("Введите длину стороны C: ").strip()
-    except Exception as ex:
-        logging.error("Ошибка при чтении входных данных")
-        logging.exception("Трассировка стека:")
-        print("не треугольник")
-        print([(-2, -2)] * 3)
-        return
+        # Чтение трёх строк
+        try:
+            line1 = input("Введите длину стороны A (или 'exit' для выхода): ").strip()
 
-    logging.info(f"Параметры запроса: A='{line1}', B='{line2}', C='{line3}'")
+            # Проверка на выход из программы
+            if line1.lower() in ('exit', 'quit', 'выход'):
+                logging.info("Завершение работы программы по запросу пользователя")
+                print("Программа завершена.")
+                break
 
-    # Разбор сторон
-    a = parse_side(line1, "A")
-    b = parse_side(line2, "B")
-    c = parse_side(line3, "C")
+            line2 = input("Введите длину стороны B: ").strip()
+            line3 = input("Введите длину стороны C: ").strip()
+        except Exception as ex:
+            logging.error("Ошибка при чтении входных данных")
+            logging.exception("Трассировка стека:")
+            print("не треугольник")
+            print([(-2, -2)] * 3)
+            continue  # Переход к следующей итерации цикла
 
-    # Если хотя бы одна сторона не распознана — нечисловые данные
-    if a is None or b is None or c is None:
-        logging.error("Невалидные (нечисловые) входные данные")
-        print("")  # пустая строка для нечисловых данных
-        print([(-2, -2)] * 3)
-        return
+        logging.info(f"Параметры запроса: A='{line1}', B='{line2}', C='{line3}'")
 
-    # Определение вида треугольника
-    triangle_type = determine_triangle_type(a, b, c)
-    logging.info(f"Вид треугольника: {triangle_type}")
+        # Разбор сторон
+        a = parse_side(line1, "A")
+        b = parse_side(line2, "B")
+        c = parse_side(line3, "C")
 
-    # Вычисление координат
-    vertices = calculate_vertices(a, b, c)
+        # Если хотя бы одна сторона не распознана — нечисловые данные
+        if a is None or b is None or c is None:
+            logging.error("Невалидные (нечисловые) входные данные")
+            print("")  # пустая строка для нечисловых данных
+            print([(-2, -2)] * 3)
+            continue  # Переход к следующей итерации цикла
 
-    # Вывод результатов
-    print(triangle_type)
-    print(vertices)
+        # Определение вида треугольника
+        triangle_type = determine_triangle_type(a, b, c)
+        logging.info(f"Вид треугольника: {triangle_type}")
 
-    # Логирование успешного запроса
-    logging.info(f"Результат: тип='{triangle_type}', вершины={vertices}")
-    logging.info("Запрос успешно обработан")
+        # Вычисление координат
+        vertices = calculate_vertices(a, b, c)
+
+        # Вывод результатов
+        print(triangle_type)
+        print(vertices)
+
+        # Логирование успешного запроса
+        logging.info(f"Результат: тип='{triangle_type}', вершины={vertices}")
+        logging.info("Запрос успешно обработан")
+
+        print("--------------------------------------------------------------")
 
 
 if __name__ == "__main__":
