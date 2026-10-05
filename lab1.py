@@ -3,6 +3,9 @@ import sys
 import math
 import os
 
+
+EPS = 1e-9
+
 # Настройка логирования
 log_format = "%(asctime)s | [%(levelname)-7s] | %(message)s"
 date_format = "%Y-%m-%d %H:%M:%S"
@@ -23,7 +26,7 @@ logging.info("Приложение запущено")
 
 def parse_side(value: str, side_name: str) -> float:
     """
-    Преобразует строку в положительное вещественное число.
+    Преобразует строку fdgв положительное вещественное число.
     При ошибке логирует исключение и возвращает None.
     """
     try:
@@ -43,7 +46,7 @@ def determine_triangle_type(a: float, b: float, c: float) -> str:
     Возвращает строку: 'равносторонний', 'равнобедренный', 'разносторонний', 'не треугольник'.
     """
     # Проверка неравенства треугольника
-    if a + b <= c or a + c <= b or b + c <= a:
+    if (a + b - c <= EPS) or (a + c - b <= EPS) or (b + c - a <= EPS):
         logging.warning(f"Стороны {a}, {b}, {c} не образуют треугольник")
         return "не треугольник"
 
@@ -62,7 +65,7 @@ def calculate_vertices(a: float, b: float, c: float, width: int = 100, height: i
     При невалидных (нечисловых) данных возвращает [(-2, -2)] * 3.
     """
     # Если стороны не образуют треугольник — координаты сбрасываются в (-1, -1)
-    if a + b <= c or a + c <= b or b + c <= a:
+    if (a + b - c <= EPS) or (a + c - b <= EPS) or (b + c - a <= EPS):
         logging.warning("Невозможно вычислить координаты: стороны не образуют треугольник")
         return [(-1, -1)] * 3
 
@@ -104,11 +107,12 @@ def calculate_vertices(a: float, b: float, c: float, width: int = 100, height: i
 
 def main():
     logging.info("Начало обработки запроса")
+
     # Чтение трёх строк
     try:
-        line1 = input("Введите длину стороны A: ")
-        line2 = input("Введите длину стороны B: ")
-        line3 = input("Введите длину стороны C: ")
+        line1 = input("Введите длину стороны A: ").strip()
+        line2 = input("Введите длину стороны B: ").strip()
+        line3 = input("Введите длину стороны C: ").strip()
     except Exception as ex:
         logging.error("Ошибка при чтении входных данных")
         logging.exception("Трассировка стека:")
@@ -132,6 +136,7 @@ def main():
 
     # Определение вида треугольника
     triangle_type = determine_triangle_type(a, b, c)
+    logging.info(f"Вид треугольника: {triangle_type}")
 
     # Вычисление координат
     vertices = calculate_vertices(a, b, c)
@@ -152,4 +157,4 @@ if __name__ == "__main__":
         logging.critical("Критическая ошибка в работе программы")
         logging.exception("Трассировка стека:")
         sys.exit(1)
-        #s
+        #s        #s
