@@ -6,6 +6,9 @@ import os
 
 EPS = 1e-9
 
+LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+LOG_FILE = os.path.join(LOG_DIR, "triangle_log.log")
 # Настройка логирования
 log_format = "%(asctime)s | [%(levelname)-7s] | %(message)s"
 date_format = "%Y-%m-%d %H:%M:%S"
@@ -16,7 +19,7 @@ logging.basicConfig(
     datefmt=date_format,
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler("logs/triangle_log.log", encoding="utf-8")
+        logging.FileHandler(LOG_FILE, encoding="utf-8")
     ]
 )
 
