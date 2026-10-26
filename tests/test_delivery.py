@@ -50,9 +50,13 @@ class TestPriceCalculation(unittest.TestCase):
         self.assertEqual(cost, 1700)  # 700 + 1000
 
     def test_express_increases_price(self):
-        # БИЗНЕС: экспресс дороже, а не дешевле
+        #  экспресс дороже
         cost, _ = calculate_delivery_cost(1.0, 100, "обычный", is_express=True)
         self.assertGreater(cost, 700)
+    def test_90kg(self):
+        cost, d = calculate_delivery_cost(90.0, 600, "опасный", is_express=True)
+        self.assertEqual(cost,-1)
+        self.assertEqual(d,"0000-00-00")
 
 
 class TestDeliveryDate(unittest.TestCase):
@@ -72,7 +76,7 @@ class TestDeliveryDate(unittest.TestCase):
         self.assertLess(express, normal)
 
     def test_express_never_takes_zero_days(self):
-        # БИЗНЕС: экспресс не может приехать в день отправки
+        #  экспресс не может приехать в день отправки
         _, date = calculate_delivery_cost(1.0, 100, "обычный", is_express=True)
         self.assertEqual(date, "2026-09-04")
 

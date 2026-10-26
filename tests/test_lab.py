@@ -56,6 +56,13 @@ class TestDetermineTriangleType(unittest.TestCase):
     def test_degenerate_triangle(self):
         """Вырожденный треугольник (a + b == c) — не треугольник."""
         self.assertEqual(determine_triangle_type(2, 3, 5), "не треугольник")
+    def test_des_num(self):
+        self.assertEqual(determine_triangle_type(0.1,0.2,0.3), "не треугольник")
+    def test_some1(self):
+        self.assertIsNone(parse_side("ab", "A"))
+        self.assertIsNone(parse_side("bc","B"))
+        self.assertIsNone(parse_side("de", "C"))
+
 
 
 class TestCalculateVertices(unittest.TestCase):
