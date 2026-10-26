@@ -63,7 +63,7 @@ class TestDetermineTriangleType(unittest.TestCase):
         self.assertIsNone(parse_side("bc","B"))
         self.assertIsNone(parse_side("de", "C"))
 
-
+#f
 
 class TestCalculateVertices(unittest.TestCase):
     """Тесты для функции calculate_vertices."""
