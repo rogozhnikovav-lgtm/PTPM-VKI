@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="add otchetdss" />
+    <list default="true" id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,8 +178,8 @@
       <list>
         <item itemvalue="Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_some1" />
         <item itemvalue="Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_des_num" />
-        <item itemvalue="Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_90kg" />
         <item itemvalue="Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_express_increases_price" />
+        <item itemvalue="Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_90kg" />
         <item itemvalue="Python tests.Python tests for tests.test_delivery.TestDeliveryDate.test_express_never_takes_zero_days" />
       </list>
     </recent_temporary>
