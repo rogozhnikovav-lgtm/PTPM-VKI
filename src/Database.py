@@ -6,10 +6,10 @@ class TriangleDatabase:
         self.db_path = db_path
         self._init_db()
 
-    def _connec(self):
+    def _connect(self):
         return sqlite3.connect(self.db_path)
     def _init_db(self):
-        with self.connect() as conn:
+        with self._connect() as conn:
             conn.execute("""CREATE TABLE IF NOT EXISTS triangles (
                     side_a REAL NOT NULL,
                     side_b REAL NOT NULL,

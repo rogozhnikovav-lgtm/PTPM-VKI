@@ -1,0 +1,135 @@
+2026-11-02 14:18:04 | [CRITICAL] | Критическая ошибка в работе программы
+2026-11-02 14:18:04 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 45, in <module>
+    main()
+    ~~~~^^
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 30, in main
+    db=TriangleDatabase(),
+       ~~~~~~~~~~~~~~~~^^
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Database.py", line 7, in __init__
+    self._init_db()
+    ~~~~~~~~~~~~~^^
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Database.py", line 12, in _init_db
+    with self.connect() as conn:
+         ^^^^^^^^^^^^
+AttributeError: 'TriangleDatabase' object has no attribute 'connect'. Did you mean: '_connec'?
+2026-11-02 14:22:13 | [INFO   ] | БД инициализирована:triangle.db
+2026-11-02 14:22:13 | [INFO   ] | Приложение запущено
+2026-11-02 14:22:13 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:22:32 | [INFO   ] | Вход: A='1', B='2', C='3'
+2026-11-02 14:22:32 | [DEBUG  ] | Сторона A успешно распознана: 1.0
+2026-11-02 14:22:32 | [DEBUG  ] | Сторона B успешно распознана: 2.0
+2026-11-02 14:22:32 | [DEBUG  ] | Сторона C успешно распознана: 3.0
+2026-11-02 14:22:32 | [DEBUG  ] | Запись для (1.0, 2.0, 3.0) не найдена
+2026-11-02 14:22:32 | [CRITICAL] | Критическая ошибка в работе программы
+2026-11-02 14:22:32 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 45, in <module>
+    main()
+    ~~~~^^
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 37, in main
+    result = controller.run_once()
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\controller.py", line 50, in run_once
+    triangle_type = self.calculator.determine_triangle_type(a, b, c)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TriangleCalculator' object has no attribute 'determine_triangle_type'
+2026-11-02 14:22:49 | [INFO   ] | БД инициализирована:triangle.db
+2026-11-02 14:22:49 | [INFO   ] | Приложение запущено
+2026-11-02 14:22:49 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:22:52 | [INFO   ] | Вход: A='5', B='5', C='5'
+2026-11-02 14:22:52 | [DEBUG  ] | Сторона A успешно распознана: 5.0
+2026-11-02 14:22:52 | [DEBUG  ] | Сторона B успешно распознана: 5.0
+2026-11-02 14:22:52 | [DEBUG  ] | Сторона C успешно распознана: 5.0
+2026-11-02 14:22:52 | [DEBUG  ] | Запись для (5.0, 5.0, 5.0) не найдена
+2026-11-02 14:22:52 | [CRITICAL] | Критическая ошибка в работе программы
+2026-11-02 14:22:52 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 45, in <module>
+    main()
+    ~~~~^^
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\Main.py", line 37, in main
+    result = controller.run_once()
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\controller.py", line 50, in run_once
+    triangle_type = self.calculator.determine_triangle_type(a, b, c)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TriangleCalculator' object has no attribute 'determine_triangle_type'
+2026-11-02 14:25:06 | [INFO   ] | БД инициализирована:triangle.db
+2026-11-02 14:25:06 | [INFO   ] | Приложение запущено
+2026-11-02 14:25:06 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:25:09 | [INFO   ] | Вход: A='5', B='5', C='5'
+2026-11-02 14:25:09 | [DEBUG  ] | Сторона A успешно распознана: 5.0
+2026-11-02 14:25:09 | [DEBUG  ] | Сторона B успешно распознана: 5.0
+2026-11-02 14:25:09 | [DEBUG  ] | Сторона C успешно распознана: 5.0
+2026-11-02 14:25:09 | [DEBUG  ] | Запись для (5.0, 5.0, 5.0) не найдена
+2026-11-02 14:25:10 | [INFO   ] | Запись добавлена: (5.0, 5.0, 5.0) -> равносторонний
+2026-11-02 14:25:10 | [INFO   ] | Результат вычислен и сохранён в БД: равносторонний
+2026-11-02 14:25:10 | [DEBUG  ] | Вычисленные координаты вершин: [(10, 90), (90, 90), (50, 21)]
+2026-11-02 14:25:10 | [INFO   ] | [MOCK EMAIL] Отправка сообщения: Треугольник (5.0, 5.0, 5.0): равносторонний, вершины=[(10, 90), (90, 90), (50, 21)]
+2026-11-02 14:25:10 | [INFO   ] | === Запрос успешно обработан ===
+2026-11-02 14:25:10 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:25:17 | [INFO   ] | Вход: A='1', B='2', C='3'
+2026-11-02 14:25:17 | [DEBUG  ] | Сторона A успешно распознана: 1.0
+2026-11-02 14:25:17 | [DEBUG  ] | Сторона B успешно распознана: 2.0
+2026-11-02 14:25:17 | [DEBUG  ] | Сторона C успешно распознана: 3.0
+2026-11-02 14:25:17 | [DEBUG  ] | Запись для (1.0, 2.0, 3.0) не найдена
+2026-11-02 14:25:17 | [WARNING] | Стороны 1.0, 2.0, 3.0 не образуют треугольник
+2026-11-02 14:25:17 | [INFO   ] | Запись добавлена: (1.0, 2.0, 3.0) -> не треугольник
+2026-11-02 14:25:17 | [INFO   ] | Результат вычислен и сохранён в БД: не треугольник
+2026-11-02 14:25:17 | [WARNING] | Невозможно вычислить координаты: стороны не образуют треугольник
+2026-11-02 14:25:17 | [INFO   ] | [MOCK EMAIL] Отправка сообщения: Треугольник (1.0, 2.0, 3.0): не треугольник, вершины=[(-1, -1), (-1, -1), (-1, -1)]
+2026-11-02 14:25:17 | [INFO   ] | === Запрос успешно обработан ===
+2026-11-02 14:25:17 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:25:27 | [INFO   ] | Вход: A='-1', B='a', C='b'
+2026-11-02 14:25:27 | [ERROR  ] | Ошибка при разборе стороны A: -1
+2026-11-02 14:25:27 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 19, in parse_side
+    raise ValueError(f"Сторона {side_name} должна быть положительной: {num}")
+ValueError: Сторона A должна быть положительной: -1.0
+2026-11-02 14:25:27 | [ERROR  ] | Ошибка при разборе стороны B: a
+2026-11-02 14:25:27 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 16, in parse_side
+    num = float(value)
+ValueError: could not convert string to float: 'a'
+2026-11-02 14:25:27 | [ERROR  ] | Ошибка при разборе стороны C: b
+2026-11-02 14:25:27 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 16, in parse_side
+    num = float(value)
+ValueError: could not convert string to float: 'b'
+2026-11-02 14:25:27 | [ERROR  ] | невалидные входные данные
+2026-11-02 14:25:27 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:25:52 | [INFO   ] | Вход: A='0', B='0', C='0'
+2026-11-02 14:25:52 | [ERROR  ] | Ошибка при разборе стороны A: 0
+2026-11-02 14:25:52 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 19, in parse_side
+    raise ValueError(f"Сторона {side_name} должна быть положительной: {num}")
+ValueError: Сторона A должна быть положительной: 0.0
+2026-11-02 14:25:52 | [ERROR  ] | Ошибка при разборе стороны B: 0
+2026-11-02 14:25:52 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 19, in parse_side
+    raise ValueError(f"Сторона {side_name} должна быть положительной: {num}")
+ValueError: Сторона B должна быть положительной: 0.0
+2026-11-02 14:25:53 | [ERROR  ] | Ошибка при разборе стороны C: 0
+2026-11-02 14:25:53 | [ERROR  ] | Трассировка стека:
+Traceback (most recent call last):
+  File "G:\4 kurs\PythonProject2\PTPM-VKI\src\TriangleValid.py", line 19, in parse_side
+    raise ValueError(f"Сторона {side_name} должна быть положительной: {num}")
+ValueError: Сторона C должна быть положительной: 0.0
+2026-11-02 14:25:53 | [ERROR  ] | невалидные входные данные
+2026-11-02 14:25:53 | [INFO   ] | === Начало обработки запроса ===
+2026-11-02 14:26:01 | [INFO   ] | Вход: A='4', B='5', C='5'
+2026-11-02 14:26:01 | [DEBUG  ] | Сторона A успешно распознана: 4.0
+2026-11-02 14:26:01 | [DEBUG  ] | Сторона B успешно распознана: 5.0
+2026-11-02 14:26:01 | [DEBUG  ] | Сторона C успешно распознана: 5.0
+2026-11-02 14:26:01 | [DEBUG  ] | Запись для (4.0, 5.0, 5.0) не найдена
+2026-11-02 14:26:01 | [INFO   ] | Запись добавлена: (4.0, 5.0, 5.0) -> равнобедренный
+2026-11-02 14:26:01 | [INFO   ] | Результат вычислен и сохранён в БД: равнобедренный
+2026-11-02 14:26:01 | [DEBUG  ] | Вычисленные координаты вершин: [(10, 90), (74, 90), (64, 31)]
+2026-11-02 14:26:01 | [INFO   ] | [MOCK EMAIL] Отправка сообщения: Треугольник (4.0, 5.0, 5.0): равнобедренный, вершины=[(10, 90), (74, 90), (64, 31)]
+2026-11-02 14:26:01 | [INFO   ] | === Запрос успешно обработан ===
+2026-11-02 14:26:01 | [INFO   ] | === Начало обработки запроса ===

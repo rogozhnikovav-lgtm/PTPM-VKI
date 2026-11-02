@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/Database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TriangleValid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Delivery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test1.py" afterDir="false" />
+    <list default="true" id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="add classes commit">
+      <change beforePath="$PROJECT_DIR$/src/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +80,7 @@
     "Python tests.Python tests in test.py.executor": "Run",
     "Python tests.Python tests in test_delivery.py.executor": "Run",
     "Python tests.Python tests in test_lab.py.executor": "Run",
+    "Python.Database.executor": "Run",
     "Python.Delivery.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.lab1.executor": "Run",
@@ -280,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793601253808</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add classes commit">
+      <option name="closed" value="true" />
+      <created>1793604040598</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1793604040598</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +304,7 @@
     <MESSAGE value="add otchet" />
     <MESSAGE value="add otchetdss" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="add classes commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes commit" />
   </component>
 </project>
