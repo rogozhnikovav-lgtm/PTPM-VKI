@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="add otchetdss" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lab_2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rogozhnikovav-lgtm&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rogozhnikovav-lgtm/PTPM-VKI.git&quot;,
+    &quot;accountId&quot;: &quot;7288855f-e1ec-4918-a85b-c4a028ddbda3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3JcszTcziBVYOP70Rg8vXRtfqcA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test.TestDetermineTriangleType.test_equilateral.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestDetermineTriangleType.test_scalene.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestMainFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestMainFunction.test_main_exit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestMainFunction.test_main_invalid_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestMainFunction.test_main_not_triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestMainFunction.test_main_scalene_triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestParseSide.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestParseSide.test_parse_side_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestParseSide.test_parse_side_non_numeric.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestParseSide.test_parse_side_valid.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestParseSide.test_parse_side_zero.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_basic_regular_small.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_dangerous_package.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_distance_too_high.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_express_multiplier.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_express_shorter_date.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_fragile_package.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_invalid_package_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_weight_coefficient_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_weight_coefficient_15.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestCalculateDeliveryCost.test_weight_too_low.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestDeliveryDate.test_express_never_takes_zero_days.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_90kg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_express_increases_price.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_des_num.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_some1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_delivery.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_lab.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Delivery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lab__3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/4 kurs/PythonProject2/PTPM-VKI&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\4 kurs\PythonProject2\PTPM-VKI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\4 kurs\PythonProject2\PTPM-VKI\src" />
+      <recent name="G:\4 kurs\PythonProject2\PTPM-VKI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_some1">
+    <configuration name="Python tests for tests.test_delivery.TestDeliveryDate.test_express_never_takes_zero_days" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTPM-VKI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_delivery.TestDeliveryDate.test_express_never_takes_zero_days&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_delivery.TestPriceCalculation.test_90kg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTPM-VKI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_delivery.TestPriceCalculation.test_90kg&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_delivery.TestPriceCalculation.test_express_increases_price" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTPM-VKI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_delivery.TestPriceCalculation.test_express_increases_price&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_lab.TestDetermineTriangleType.test_des_num" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTPM-VKI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lab.TestDetermineTriangleType.test_des_num&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_lab.TestDetermineTriangleType.test_some1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTPM-VKI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_lab.TestDetermineTriangleType.test_some1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_some1" />
+        <item itemvalue="Python tests.Python tests for tests.test_lab.TestDetermineTriangleType.test_des_num" />
+        <item itemvalue="Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_90kg" />
+        <item itemvalue="Python tests.Python tests for tests.test_delivery.TestPriceCalculation.test_express_increases_price" />
+        <item itemvalue="Python tests.Python tests for tests.test_delivery.TestDeliveryDate.test_express_never_takes_zero_days" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-1f77c24022e5-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7055dd7c-ebd5-40ce-a32a-93c444afbecb" name="Changes" comment="" />
+      <created>1789971956159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789971956159</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add while">
+      <option name="closed" value="true" />
+      <created>1791182019832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791182019832</updated>
+    </task>
+    <task id="LOCAL-00002" summary="log save">
+      <option name="closed" value="true" />
+      <created>1791785760382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791785760382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start commit">
+      <option name="closed" value="true" />
+      <created>1791785973516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791785973516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tests for lab1">
+      <option name="closed" value="true" />
+      <created>1791788102204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791788102204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tests for lab1-2">
+      <option name="closed" value="true" />
+      <created>1792392956573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1792392956573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add otchet">
+      <option name="closed" value="true" />
+      <created>1792394286186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1792394286186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add otchet">
+      <option name="closed" value="true" />
+      <created>1792998118234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1792998118234</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add otchetdss">
+      <option name="closed" value="true" />
+      <created>1792998143850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1792998143850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add while" />
+    <MESSAGE value="log save" />
+    <MESSAGE value="start commit" />
+    <MESSAGE value="tests for lab1" />
+    <MESSAGE value="tests for lab1-2" />
+    <MESSAGE value="add otchet" />
+    <MESSAGE value="add otchetdss" />
+    <option name="LAST_COMMIT_MESSAGE" value="add otchetdss" />
+  </component>
+</project>
